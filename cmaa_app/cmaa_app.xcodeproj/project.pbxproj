@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1163CD2172014400495D85 /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1163CC2172014400495D85 /* StudentVC.swift */; };
+		CE1163CF2172023E00495D85 /* BadgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1163CE2172023E00495D85 /* BadgeVC.swift */; };
 		CECD0F4C2171F5860080E3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F4B2171F5860080E3DF /* AppDelegate.swift */; };
 		CECD0F4E2171F5860080E3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F4D2171F5860080E3DF /* ViewController.swift */; };
 		CECD0F512171F5860080E3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD0F4F2171F5860080E3DF /* Main.storyboard */; };
 		CECD0F532171F5890080E3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD0F522171F5890080E3DF /* Assets.xcassets */; };
 		CECD0F562171F5890080E3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD0F542171F5890080E3DF /* LaunchScreen.storyboard */; };
+		CECD0F5E2171F86A0080E3DF /* ParentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F5D2171F86A0080E3DF /* ParentVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1163CC2172014400495D85 /* StudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentVC.swift; sourceTree = "<group>"; };
+		CE1163CE2172023E00495D85 /* BadgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeVC.swift; sourceTree = "<group>"; };
 		CECD0F482171F5860080E3DF /* cmaa_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cmaa_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECD0F4B2171F5860080E3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECD0F4D2171F5860080E3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		CECD0F522171F5890080E3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECD0F552171F5890080E3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECD0F572171F5890080E3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECD0F5D2171F86A0080E3DF /* ParentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				CECD0F4B2171F5860080E3DF /* AppDelegate.swift */,
 				CECD0F4D2171F5860080E3DF /* ViewController.swift */,
 				CECD0F4F2171F5860080E3DF /* Main.storyboard */,
+				CE1163CE2172023E00495D85 /* BadgeVC.swift */,
+				CE1163CC2172014400495D85 /* StudentVC.swift */,
+				CECD0F5D2171F86A0080E3DF /* ParentVC.swift */,
 				CECD0F522171F5890080E3DF /* Assets.xcassets */,
 				CECD0F542171F5890080E3DF /* LaunchScreen.storyboard */,
 				CECD0F572171F5890080E3DF /* Info.plist */,
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECD0F4E2171F5860080E3DF /* ViewController.swift in Sources */,
+				CE1163CF2172023E00495D85 /* BadgeVC.swift in Sources */,
 				CECD0F4C2171F5860080E3DF /* AppDelegate.swift in Sources */,
+				CE1163CD2172014400495D85 /* StudentVC.swift in Sources */,
+				CECD0F5E2171F86A0080E3DF /* ParentVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

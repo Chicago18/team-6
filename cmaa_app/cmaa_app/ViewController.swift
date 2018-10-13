@@ -10,8 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBAction func parentBtn(_ sender: Any) {
+        performSegue(withIdentifier: "signInToParent", sender: self)
+    }
+    
+   
+    
+    @IBAction func signInBtn(_ sender: Any) {
+           performSegue(withIdentifier: "signInToStudent", sender: self)
+   
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
