@@ -22,13 +22,13 @@
 					<label>TYPE OF PROGRAM: (Choose one)</label>
 					<input type = "radio"
 							name = "program"
-							value = "Out-of-school">Out-of-school
+							id = "Out-of-school">Out-of-school
 					<input type = "radio"
 							name = "program"
-							value = "PI">PI
+							id = "PI">PI
 					<input type = "radio"
 							name = "program"
-							value = "CHA">CHA
+							id = "CHA">CHA
 				</p>
 			</fieldset>
 			<fieldset>
@@ -60,7 +60,7 @@
 				</p>
 				<p>
 					<input type = "radio"
-							name = "program"
+							id = "program"
 							value = "Homeless Youth">Homeless Youth
 				</p>
 				<p>
@@ -72,18 +72,18 @@
 					<label>Ethnicity: (Choose one)</label>
 					<input type = "radio"
 							name = "ethnicity"
-							value = "Hispanic">Hispanic
+							id = "Hispanic">Hispanic
 					<input type = "radio"
 							name = "ethnicity"
-							value = "Non-Hispanic">Non-Hispanic
+							id = "Non-Hispanic">Non-Hispanic
 				</p>
 				<p>
 					<label>Gender: (Choose one)</label>
 					<input type = "radio"
-							name = "gender"
+							id = "male"
 							value = "Male">Male
 					<input type = "radio"
-							name = "gender"
+							id = "female"
 							value = "Female">Female
 				</p>
 				<p>
@@ -99,22 +99,22 @@
 				<p>
 					<label>Race: (Choose one)</label>
 					<input type = "radio"
-							name = "race"
+							id = "American Indian"
 							value = "American Indian/Alaskan Native">American Indian/Alaskan Native
 					<input type = "radio"
-							name = "race"
+							id = "asian"
 							value = "Asian">Asian
 					<input type = "radio"
-							name = "race"
+							id = "African American"
 							value = "Black/African American">Black/African American
 					<input type = "radio"
-							name = "race"
+							id = "Native Hawaiian"
 							value = "Native Hawaiian/Other Pacific Islander">Native Hawaiian/Other Pacific Islander
 					<input type = "radio"
-							name = "race"
+							id = "white"
 							value = "White">White
 					<input type = "radio"
-							name = "race"
+							id = "other"
 							value = "Other/Multiracial">Other/Multiracial
 				</p>
 				<p>
@@ -130,10 +130,10 @@
 				<p>
 					<label>Disabled:</label>
 					<input type = "radio"
-							name = "disability"
+							id = "disability"
 							value = "yes">Yes
 					<input type = "radio"
-							name = "disability"
+							id = "nodisability"
 							value = "no">No
 					<label>If yes, please specify:</label>
 					<input type = "text"
@@ -153,8 +153,109 @@
 			<fieldset>
 				<legend>Head of Household Information</legend>
 				<p>
-					
+					<label>Family Type: (Choose one)</label>
+					<input type = "radio"
+							id = "single female"
+							value = "Single Parent/Female">Single Parent/Female
+					<input type = "radio"
+							id = "single male"
+							value = "Single Parent/Male">Single Parent/Male
+					<input type = "radio"
+							id = "two parent"
+							value = "Two-parent household">Two-parent household
+					<input type = "radio"
+							id = "independent"
+							value = "Independent Youth">Independent Youth
+					<input type = "radio"
+							id = "relative"
+							value = "Relative">Relative
+					<input type = "radio"
+							id = "guardian"
+							value = "Guardian">Guardian
 				</p>
+				<p>
+					<label>Housing Status: (Choose one)</label>
+					<input type = "radio"
+							id = "rent"
+							value = "Rent">Rent
+					<input type = "radio"
+							id = "own"
+							value = "Own">Own
+					<input type = "radio"
+							id = "homeless"
+							value = "Homeless/Shelter">Homeless/Shelter
+					<input type = "radio"
+							id = "housing"
+							value = "In Temporary Housing">In Temporary Housing
+				</p>
+				<p>
+					<label>Food Stamps: (Check one)</label>
+					<input type = "radio"
+							id = "stamps"
+							value = "Yes">Yes
+					<input type = "radio"
+							id = "no stamps"
+							value = "No">No
+				</p>
+				<p>
+					<label>Free/Reduced Lunch: (Check one)</label>
+					<input type = "radio"
+							id = "lunch"
+							value = "Yes">Yes
+					<input type = "radio"
+							id = "no lunch"
+							value = "No">No
+				</p>
+				<p>
+					<label>Health Insurance: (Check one)</label>
+					<input type = "radio"
+							id = "insurance"
+							value = "Yes">Yes
+					<input type = "radio"
+							id = "no insurance"
+							value = "No">No
+				</p>
+				<p>
+					<label>Income Source: (Check all that apply)</label>
+					<input type = "checkbox"
+							id = "employment"
+							value = "Employment">Employment
+					<input type = "checkbox"
+							id = "pension"
+							value = "Pension">Pension
+					<input type = "checkbox"
+							id = "TANF"
+							value = "TANF">TANF
+					<input type = "checkbox"
+							id = "earnfare"
+							value = "Earnfare">Earnfare
+					<input type = "checkbox"
+							id = "social security"
+							value = "Social Security">Social Security
+					<input type = "checkbox"
+							id = "unemployment insurance"
+							value = "Unemployment insurance">Unemployment insurance
+					<input type = "checkbox"
+						id = "other"
+						value = "Other">Other (Including SSDI, Child Support, and VA Benefits)
+					<input type = "checkbox"
+							id = "SSI"
+							value = "SSI">SSI
+				</p>
+				<p>
+					<label>Source of referral (Location that sent you):</label>
+					<input type = "text"
+							id = "referral"/>
+				</p>
+				<p>
+					<label>CHA Client ID#:</label>
+					<input type = "text"
+							id = "cha client id"/>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Level of Family Income</legend>
+				
 			</fieldset>
 		</form>
 	</body>
