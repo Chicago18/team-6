@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     }
     
    
+    @IBAction func adminBtn(_ sender: Any) {
+          performSegue(withIdentifier: "goToAdmin", sender: self)
+    }
     
     @IBAction func signInBtn(_ sender: Any) {
            performSegue(withIdentifier: "signInToStudent", sender: self)
