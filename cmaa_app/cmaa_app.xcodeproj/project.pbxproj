@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		CE1163CD2172014400495D85 /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1163CC2172014400495D85 /* StudentVC.swift */; };
 		CE1163CF2172023E00495D85 /* BadgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1163CE2172023E00495D85 /* BadgeVC.swift */; };
+		CE3FF39E2172248500E09876 /* EmergencyContact1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF39D2172248500E09876 /* EmergencyContact1VC.swift */; };
+		CE3FF3A0217225BF00E09876 /* EmergencyContact2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF39F217225BF00E09876 /* EmergencyContact2VC.swift */; };
+		CE3FF3A22172291500E09876 /* AdditionalEmergencyContact1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF3A12172291500E09876 /* AdditionalEmergencyContact1VC.swift */; };
+		CE3FF3A421722C3900E09876 /* Emergency222ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF3A321722C3900E09876 /* Emergency222ViewController.swift */; };
+		CE3FF3A621722CBC00E09876 /* EMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF3A521722CBC00E09876 /* EMVC.swift */; };
 		CECD0F4C2171F5860080E3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F4B2171F5860080E3DF /* AppDelegate.swift */; };
 		CECD0F4E2171F5860080E3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F4D2171F5860080E3DF /* ViewController.swift */; };
 		CECD0F512171F5860080E3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD0F4F2171F5860080E3DF /* Main.storyboard */; };
@@ -20,6 +25,11 @@
 /* Begin PBXFileReference section */
 		CE1163CC2172014400495D85 /* StudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentVC.swift; sourceTree = "<group>"; };
 		CE1163CE2172023E00495D85 /* BadgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeVC.swift; sourceTree = "<group>"; };
+		CE3FF39D2172248500E09876 /* EmergencyContact1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContact1VC.swift; sourceTree = "<group>"; };
+		CE3FF39F217225BF00E09876 /* EmergencyContact2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContact2VC.swift; sourceTree = "<group>"; };
+		CE3FF3A12172291500E09876 /* AdditionalEmergencyContact1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalEmergencyContact1VC.swift; sourceTree = "<group>"; };
+		CE3FF3A321722C3900E09876 /* Emergency222ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emergency222ViewController.swift; sourceTree = "<group>"; };
+		CE3FF3A521722CBC00E09876 /* EMVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMVC.swift; sourceTree = "<group>"; };
 		CECD0F482171F5860080E3DF /* cmaa_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cmaa_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECD0F4B2171F5860080E3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECD0F4D2171F5860080E3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +73,11 @@
 				CECD0F4B2171F5860080E3DF /* AppDelegate.swift */,
 				CECD0F4D2171F5860080E3DF /* ViewController.swift */,
 				CECD0F4F2171F5860080E3DF /* Main.storyboard */,
+				CE3FF3A12172291500E09876 /* AdditionalEmergencyContact1VC.swift */,
+				CE3FF3A321722C3900E09876 /* Emergency222ViewController.swift */,
+				CE3FF3A521722CBC00E09876 /* EMVC.swift */,
+				CE3FF39F217225BF00E09876 /* EmergencyContact2VC.swift */,
+				CE3FF39D2172248500E09876 /* EmergencyContact1VC.swift */,
 				CE1163CE2172023E00495D85 /* BadgeVC.swift */,
 				CE1163CC2172014400495D85 /* StudentVC.swift */,
 				CECD0F5D2171F86A0080E3DF /* ParentVC.swift */,
@@ -144,11 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3FF3A621722CBC00E09876 /* EMVC.swift in Sources */,
 				CECD0F4E2171F5860080E3DF /* ViewController.swift in Sources */,
 				CE1163CF2172023E00495D85 /* BadgeVC.swift in Sources */,
+				CE3FF3A0217225BF00E09876 /* EmergencyContact2VC.swift in Sources */,
+				CE3FF3A421722C3900E09876 /* Emergency222ViewController.swift in Sources */,
 				CECD0F4C2171F5860080E3DF /* AppDelegate.swift in Sources */,
+				CE3FF3A22172291500E09876 /* AdditionalEmergencyContact1VC.swift in Sources */,
 				CE1163CD2172014400495D85 /* StudentVC.swift in Sources */,
 				CECD0F5E2171F86A0080E3DF /* ParentVC.swift in Sources */,
+				CE3FF39E2172248500E09876 /* EmergencyContact1VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
