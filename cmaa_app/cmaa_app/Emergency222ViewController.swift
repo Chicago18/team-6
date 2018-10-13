@@ -1,5 +1,5 @@
 //
-//  ParentVC.swift
+//  Emergency222ViewController.swift
 //  cmaa_app
 //
 //  Created by Sarah Koop on 10/13/18.
@@ -8,15 +8,11 @@
 
 import UIKit
 
-class ParentVC: UIViewController {
+class Emergency222ViewController: UIViewController {
 
-    let parentUser: String = "parent"
-    let parentPass: String = "password"
-    
-    @IBAction func emc(_ sender: Any) {
-        performSegue(withIdentifier: "first", sender: self)
+    @IBAction func next(_ sender: Any) {
+        performSegue(withIdentifier: "toLast", sender: self)
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
