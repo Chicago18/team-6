@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE02814821723BC00044BD33 /* AdminStudentStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02814721723BC00044BD33 /* AdminStudentStats.swift */; };
+		CE02814A21723EA10044BD33 /* StatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02814921723EA10044BD33 /* StatsVC.swift */; };
 		CE1163CD2172014400495D85 /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1163CC2172014400495D85 /* StudentVC.swift */; };
 		CE1163CF2172023E00495D85 /* BadgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1163CE2172023E00495D85 /* BadgeVC.swift */; };
 		CE3FF39E2172248500E09876 /* EmergencyContact1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF39D2172248500E09876 /* EmergencyContact1VC.swift */; };
@@ -14,6 +16,9 @@
 		CE3FF3A22172291500E09876 /* AdditionalEmergencyContact1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF3A12172291500E09876 /* AdditionalEmergencyContact1VC.swift */; };
 		CE3FF3A421722C3900E09876 /* Emergency222ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF3A321722C3900E09876 /* Emergency222ViewController.swift */; };
 		CE3FF3A621722CBC00E09876 /* EMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF3A521722CBC00E09876 /* EMVC.swift */; };
+		CE3FF3A921722E9100E09876 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3FF3A821722E9100E09876 /* libsqlite3.tbd */; };
+		CE3FF3AD21722F7200E09876 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF3AC21722F7200E09876 /* DBManager.m */; };
+		CE3FF3AF217238AD00E09876 /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF3AE217238AD00E09876 /* AdminHomeViewController.swift */; };
 		CECD0F4C2171F5860080E3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F4B2171F5860080E3DF /* AppDelegate.swift */; };
 		CECD0F4E2171F5860080E3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0F4D2171F5860080E3DF /* ViewController.swift */; };
 		CECD0F512171F5860080E3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD0F4F2171F5860080E3DF /* Main.storyboard */; };
@@ -23,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE02814721723BC00044BD33 /* AdminStudentStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminStudentStats.swift; sourceTree = "<group>"; };
+		CE02814921723EA10044BD33 /* StatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsVC.swift; sourceTree = "<group>"; };
 		CE1163CC2172014400495D85 /* StudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentVC.swift; sourceTree = "<group>"; };
 		CE1163CE2172023E00495D85 /* BadgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeVC.swift; sourceTree = "<group>"; };
 		CE3FF39D2172248500E09876 /* EmergencyContact1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContact1VC.swift; sourceTree = "<group>"; };
@@ -30,6 +37,11 @@
 		CE3FF3A12172291500E09876 /* AdditionalEmergencyContact1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalEmergencyContact1VC.swift; sourceTree = "<group>"; };
 		CE3FF3A321722C3900E09876 /* Emergency222ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emergency222ViewController.swift; sourceTree = "<group>"; };
 		CE3FF3A521722CBC00E09876 /* EMVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMVC.swift; sourceTree = "<group>"; };
+		CE3FF3A821722E9100E09876 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CE3FF3AA21722F7100E09876 /* cmaa_app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cmaa_app-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE3FF3AB21722F7200E09876 /* DBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		CE3FF3AC21722F7200E09876 /* DBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		CE3FF3AE217238AD00E09876 /* AdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
 		CECD0F482171F5860080E3DF /* cmaa_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cmaa_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECD0F4B2171F5860080E3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECD0F4D2171F5860080E3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,17 +57,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3FF3A921722E9100E09876 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3FF3A721722E8F00E09876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FF3A821722E9100E09876 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CECD0F3F2171F5860080E3DF = {
 			isa = PBXGroup;
 			children = (
+				CE3FF3AB21722F7200E09876 /* DBManager.h */,
+				CE3FF3AC21722F7200E09876 /* DBManager.m */,
 				CECD0F4A2171F5860080E3DF /* cmaa_app */,
 				CECD0F492171F5860080E3DF /* Products */,
+				CE3FF3A721722E8F00E09876 /* Frameworks */,
+				CE3FF3AA21722F7100E09876 /* cmaa_app-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				CECD0F4B2171F5860080E3DF /* AppDelegate.swift */,
+				CE02814721723BC00044BD33 /* AdminStudentStats.swift */,
+				CE02814921723EA10044BD33 /* StatsVC.swift */,
 				CECD0F4D2171F5860080E3DF /* ViewController.swift */,
 				CECD0F4F2171F5860080E3DF /* Main.storyboard */,
+				CE3FF3AE217238AD00E09876 /* AdminHomeViewController.swift */,
 				CE3FF3A12172291500E09876 /* AdditionalEmergencyContact1VC.swift */,
 				CE3FF3A321722C3900E09876 /* Emergency222ViewController.swift */,
 				CE3FF3A521722CBC00E09876 /* EMVC.swift */,
@@ -120,6 +148,7 @@
 				TargetAttributes = {
 					CECD0F472171F5860080E3DF = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -164,10 +193,14 @@
 				CE1163CF2172023E00495D85 /* BadgeVC.swift in Sources */,
 				CE3FF3A0217225BF00E09876 /* EmergencyContact2VC.swift in Sources */,
 				CE3FF3A421722C3900E09876 /* Emergency222ViewController.swift in Sources */,
+				CE02814821723BC00044BD33 /* AdminStudentStats.swift in Sources */,
 				CECD0F4C2171F5860080E3DF /* AppDelegate.swift in Sources */,
 				CE3FF3A22172291500E09876 /* AdditionalEmergencyContact1VC.swift in Sources */,
+				CE3FF3AD21722F7200E09876 /* DBManager.m in Sources */,
 				CE1163CD2172014400495D85 /* StudentVC.swift in Sources */,
+				CE3FF3AF217238AD00E09876 /* AdminHomeViewController.swift in Sources */,
 				CECD0F5E2171F86A0080E3DF /* ParentVC.swift in Sources */,
+				CE02814A21723EA10044BD33 /* StatsVC.swift in Sources */,
 				CE3FF39E2172248500E09876 /* EmergencyContact1VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = cmaa_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,6 +356,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.cmaa-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cmaa_app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = cmaa_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,6 +376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.cmaa-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cmaa_app-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
